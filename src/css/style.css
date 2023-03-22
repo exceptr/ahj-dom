@@ -1,0 +1,47 @@
+/* body {
+    color: #504949;
+    box-sizing: border-box;
+    max-width: 100%;
+} */
+
+.card {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+.hole-game {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px auto;
+  }
+  
+.status {
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+.hole {
+    width: 70px;
+    height: 70px;
+    margin: 0 5px 15px;
+    /* background: gray; */
+    border-radius: 50%;
+    border-style: solid;
+    border-color: darkslategrey;
+  }
+  
+.hole_has-goblin {
+    background-image: url(../img/goblin.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: brown; */
+  }
+  
+.button-clear-stat {
+    /* width: 100%; */
+    margin: 15px auto ;
+    display: block;
+  }
