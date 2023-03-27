@@ -1,9 +1,3 @@
-/* body {
-    color: #504949;
-    box-sizing: border-box;
-    max-width: 100%;
-} */
-
 .card {
     width: 100%;
     margin-bottom: 0;
@@ -26,7 +20,6 @@
     width: 70px;
     height: 70px;
     margin: 0 5px 15px;
-    /* background: gray; */
     border-radius: 50%;
     border-style: solid;
     border-color: darkslategrey;
@@ -37,11 +30,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-color: brown; */
   }
   
 .button-clear-stat {
-    /* width: 100%; */
     margin: 15px auto ;
     display: block;
   }
