@@ -71,7 +71,8 @@ export default class Goblin {
       let hole = this.getHoleIndex(index);
 
       hole.onclick = () => {
-        if (hole.className.includes("hole_has-goblin") === true) {
+        if (hole.className.includes("hole_has-goblin")) {
+          hole.classList.remove("hole_has-goblin");
           this.dead.textContent = Number(this.dead.textContent) + 1;
         } else {
           this.lost.textContent = Number(this.lost.textContent) + 1;
